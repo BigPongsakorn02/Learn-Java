@@ -4,8 +4,8 @@ public class Stack {
     static int top;
  
     static void init(int size) {
-        st = new int[size];
-        top = 0;
+        st = new int[size]; //Create array
+        top = 0; //Set top to 0
     }
 
     static void push(int x ) {
