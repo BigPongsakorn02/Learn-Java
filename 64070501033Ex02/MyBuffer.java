@@ -1,9 +1,7 @@
+//Base Class
 public abstract class MyBuffer {
-    final int items[];
 
-    public MyBuffer() {
-        this(10);
-    }
+    final int items[];
 
     public MyBuffer(int x){
         items = new int[x];
@@ -21,5 +19,6 @@ public abstract class MyBuffer {
     double average(){
         double x=0;
         for(int i=0; i< items.length;i++) x+=items[i];
-        return (items.length>0)?(x/items.length):0.0;}
+        return (items.length>0)?(x/items.length):0.0;
+    }
 }
