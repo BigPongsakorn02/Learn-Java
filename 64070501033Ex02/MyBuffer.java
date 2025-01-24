@@ -11,9 +11,10 @@ public abstract class MyBuffer {
     void showBuffer(){
         System.out.printf("{");
         for(int i=0; i<items.length; i++){
-            System.out.printf("%d",items[i]);
-            System.out.println();
+            System.out.printf("%d,",items[i]);
+            //System.out.println();
         }
+        System.out.printf("}\n");
     }
 
     double average(){
