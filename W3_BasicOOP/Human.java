@@ -1,5 +1,3 @@
-package W3_BasicOOP;
-
 public class Human extends Animal {
 
     public Human(String name, int life) {

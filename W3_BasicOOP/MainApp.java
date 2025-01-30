@@ -1,5 +1,3 @@
-package W3_BasicOOP;
-
 public class MainApp {
         public static void main(String[] args){
 
@@ -25,7 +23,7 @@ public class MainApp {
 
             // d.eat();//Because eat() method in Dog class need Cat type
 
-            //d.eat(c);//Because eat() method in Dog class need Cat type
+            d.eat(c);
 
             //((Dog)x[0]).eat(c);
 

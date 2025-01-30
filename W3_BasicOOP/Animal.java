@@ -1,5 +1,3 @@
-package W3_BasicOOP;
-
 public abstract class Animal {
     int life;
     String name;

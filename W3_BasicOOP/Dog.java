@@ -1,11 +1,10 @@
-package W3_BasicOOP;
-
 public class Dog extends Animal {
    
     String name;
 
     public Dog(String name, int life) {
         super(name,life);
+        this.name = name;
     }
 
     void talk() {
