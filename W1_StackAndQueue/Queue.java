@@ -1,3 +1,5 @@
+package W1_StackAndQueue;
+
 public class Queue {
     int q[];
     int head;
