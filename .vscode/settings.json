@@ -1,7 +1,11 @@
 {
     "java.dependency.packagePresentation": "hierarchical",
     "java.project.sourcePaths": [
-        "W3_BasicOOP"
+        "W4_RandomNumber",
+        "W4_Exception",
+        "W3_BasicOOP",
+        "SelfStudy/Exception",
+        "W2_SubClass"
     ],
     "java.project.referencedLibraries": []
 }
