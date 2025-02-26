@@ -4,15 +4,15 @@ public class MyApp {
         Stack st = new Stack(10); //Call the Stack class with the size of 10
         Queue q = new Queue(10); //Call the Queue class with the size of 10
 
-        st.showBuffer();
-        q.showBuffer();
+        st.showBufferWeek2();
+        q.showBufferWeek2();
         //Test 01
         for(i=0; i<11; i++){
             st.push(i);
             q.enqueue(i);
         } 
-        st.showBuffer();
-        q.showBuffer();
+        st.showBufferWeek2();
+        q.showBufferWeek2();
         for(i=0;i<10;i++){
             System.out.printf("%d,%d\n", st.pop(), q.dequeue());
         }

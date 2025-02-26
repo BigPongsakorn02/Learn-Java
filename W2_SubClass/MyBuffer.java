@@ -8,7 +8,7 @@ public abstract class MyBuffer {
         for(int i=0; i<x; i++)items[i] = 0;
     }
 
-    void showBuffer(){
+    public void showBufferWeek2(){
         System.out.printf("{");
         for(int i=0; i<items.length; i++){
             System.out.printf("%d,",items[i]);

@@ -1,5 +1,3 @@
-
-
 public class Stack {
     
     static int st[]; 
