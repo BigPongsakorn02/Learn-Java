@@ -1,9 +1,9 @@
 //Extends MyBuffer inheritance to Stack
-public class Stack extends MyBuffer{
+public class StackW2 extends MyBuffer{
 
     int top;
 
-    public Stack(int x){
+    public StackW2(int x){
         super(x); 
         top = 0;
     }

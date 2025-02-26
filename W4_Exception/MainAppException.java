@@ -2,7 +2,7 @@ public class MainAppException {
     
     public static void main(String[] args) {
 
-        Stack s = new Stack(5);
+        StackW2 s = new StackW2(5);
         
         for(int i=0;i<6;i++){
             s.push(i);
@@ -12,7 +12,7 @@ public class MainAppException {
             s.pop();
         }
 
-        Queue q = new Queue(5);
+        QueueW2 q = new QueueW2(5);
 
         for(int i=0;i<6;i++){
             q.enqueue(i);

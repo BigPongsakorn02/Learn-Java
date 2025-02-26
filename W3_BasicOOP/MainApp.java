@@ -7,12 +7,12 @@ public class MainApp {
             Animal[] x;
             Dog d;
             Cat c;
-            Human h;
+            // Human h;
             
             x = new Animal[3];
             x[0] = d = new Dog("Goofy", 50);
             x[1] = c = new Cat("Tom", 30);
-            x[2] = h = new Human("John", 100);
+            // x[2] = h = new Human("John", 100);
 
             for (int i = 0; i < 3; i++) {
                 x[i].talk();

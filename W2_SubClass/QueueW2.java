@@ -1,9 +1,9 @@
-public class Queue extends MyBuffer{ 
+public class QueueW2 extends MyBuffer{ 
     int head;
     int tail;
     int count;
 
-    public Queue(int x){
+    public QueueW2(int x){
         super(x);
         head = 0;
         tail = 0;

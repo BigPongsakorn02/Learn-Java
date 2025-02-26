@@ -1,5 +1,5 @@
 //Base Class
-public abstract class MyBuffer {
+public abstract class  MyBuffer {
 
     final int items[];
 
@@ -8,7 +8,7 @@ public abstract class MyBuffer {
         for(int i=0; i<x; i++)items[i] = 0;
     }
 
-    public void showBufferWeek2(){
+    public void showBuffer(){
         System.out.printf("{");
         for(int i=0; i<items.length; i++){
             System.out.printf("%d,",items[i]);

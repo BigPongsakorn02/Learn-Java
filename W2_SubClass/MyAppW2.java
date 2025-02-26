@@ -1,18 +1,18 @@
-public class MyApp {
+public class MyAppW2 {
     public static void main(String[] args) {
         int i;
-        Stack st = new Stack(10); //Call the Stack class with the size of 10
-        Queue q = new Queue(10); //Call the Queue class with the size of 10
+        StackW2 st = new StackW2(10); //Call the Stack class with the size of 10
+        QueueW2 q = new QueueW2(10); //Call the Queue class with the size of 10
 
-        st.showBufferWeek2();
-        q.showBufferWeek2();
+        st.showBuffer();
+        q.showBuffer();
         //Test 01
         for(i=0; i<11; i++){
             st.push(i);
             q.enqueue(i);
         } 
-        st.showBufferWeek2();
-        q.showBufferWeek2();
+        st.showBuffer();
+        q.showBuffer();
         for(i=0;i<10;i++){
             System.out.printf("%d,%d\n", st.pop(), q.dequeue());
         }
