@@ -1,11 +1,16 @@
 {
     "java.dependency.packagePresentation": "hierarchical",
     "java.project.sourcePaths": [
+        "Week05",
         "W4_RandomNumber",
         "W4_Exception",
         "W3_BasicOOP",
+        "W2_SubClass",
         "SelfStudy/Exception",
-        "W2_SubClass"
+        "MyUtil",
+        "W5"
     ],
-    "java.project.referencedLibraries": []
+    "java.project.referencedLibraries": [
+        "test-lib\\**\\*.jar"
+    ]
 }
