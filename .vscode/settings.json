@@ -1,16 +1,14 @@
 {
-    "java.dependency.packagePresentation": "hierarchical",
+    "java.dependency.packagePresentation": "flat",
     "java.project.sourcePaths": [
-        "Week05",
-        "W4_RandomNumber",
-        "W4_Exception",
-        "W3_BasicOOP",
-        "W2_SubClass",
-        "SelfStudy/Exception",
-        "MyUtil",
-        "W5"
+        "Week08",
+        "Week07",
+        "Week06 TicTacToe",
+        "Week07_BouncingBall"
     ],
     "java.project.referencedLibraries": [
         "test-lib\\**\\*.jar"
-    ]
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.compile.nullAnalysis.mode": "automatic"
 }
